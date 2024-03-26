@@ -51,8 +51,6 @@ namespace RestApp.UnitTests
             Assert.Equal(default(string), result);
         }
 
-
-        //New
         [Fact]
         public async Task Retry_ThreeTimesBeforeGetSucceedData_Test()
         {
